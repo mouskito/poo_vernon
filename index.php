@@ -38,8 +38,18 @@
    echo $simba->seDeplacer();
    echo $simba->calculSalaire();
    
+   //Les typages
+   echo "<hr>";
+   echo "<hr>";
+   echo "------------";
+   $pers = new Personne();
+   $pers->setNom("Camara");
+   echo $simba->manger($pers);
+   echo "------------<hr>";
+
+   
    $snake = new Serpent();
-   echo $snake->calculSalaire();
+   //echo $snake->calculSalaire();
 
 
    ?>

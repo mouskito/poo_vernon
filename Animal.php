@@ -1,16 +1,15 @@
 <?php
 
-    abstract class Animal{
-        protected function seDeplacer(){
-            echo "Je me déplace";
-        }
+    abstract class Animal extends Mouv{
+        
         
         public function calculSalaire(){
             return 1500;
         }
         
-        public function manger(){
-            echo "Je mange";
+        public function manger(Personne $parametre){
+
+            echo "Je mange  " .$parametre;
         }
 
         // public function dormir(){

@@ -1,7 +1,7 @@
 <?php
     require "Animal.php";
     
-    class Lion extends Animal{
+    class Lion extends Animal implements Demo{
 
         public function seDeplacer()
         {
@@ -24,6 +24,19 @@
 
         public function dormir() {
             echo "Je dors comme un lion";
+        }
+
+        public function create() {
+            
+        }
+        public function read() {
+            
+        }
+        public function update() {
+            
+        }
+        public function delete() {
+            
         }
     }
 
