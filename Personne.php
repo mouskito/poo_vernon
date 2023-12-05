@@ -29,16 +29,4 @@
             return $this->prenom.' '.$this->nom;
         }
     }
-
-    $nouvellePersonne = new Personne();
-     $nouvellePersonne->setPrenom("Momo");
-     $nouvellePersonne->setNom("du 76");
-    //echo $nouvellePersonne->getPrenom();
-
-    echo "<br>";
-    echo $nouvellePersonne;
-
-    // echo $nouvellePersonne->getPrenom();
-    // echo $nouvellePersonne->getNom();
-    // echo $nouvellePersonne->getEmail();
 ?>
