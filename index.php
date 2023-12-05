@@ -1,6 +1,8 @@
 <?php
     require "Personne.php";
     require "Ville.php";
+    require "Lion.php";
+    require "Serpent.php";
     
     //instanciation
     $nouvellePersonne = new Personne();
@@ -26,4 +28,18 @@
    $ville->setNom("Paris");
    $ville->setDepartement(75);
    echo $ville;
+   
+   echo "<br>";
+   echo "<hr>";
+   echo "<hr>";
+   //HERITAGE
+   $simba = new Lion();
+   
+   echo $simba->seDeplacer();
+   echo $simba->calculSalaire();
+   
+   $snake = new Serpent();
+   echo $snake->calculSalaire();
+
+
    ?>

@@ -23,6 +23,8 @@
         public function hello(){
             echo "Salut les gens";
         }
+
+        
     }
     //Les objets
     //instanciation
